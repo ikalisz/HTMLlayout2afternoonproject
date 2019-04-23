@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #e1e7fa;
+}
+
+.navigationBar {
+    height:100px;
+    width: 97vw;
+    background: #fff;
+    margin: 1.5em auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoHeader {
+    height: 70%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.logoOwl {
+    margin-left:2em;
+}
+
+.boldText {
+    font-weight: bold;
+    font-size: 1.5em;
+}
