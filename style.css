@@ -6,7 +6,12 @@ body {
     font-family: 'Muli', sans-serif;
 }
 
-.firstBox {
+.box {
+    width: 97vw;
+    margin: 0 auto;
+}
+
+.first {
     height: 100vh;
     width: 97vw;
     background: #fff;
@@ -68,8 +73,21 @@ ul {
 
 
 .buttons {
-    width: 10%;
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
     align-items: center;
+    margin-right: 1em;
+}
+
+.SUBSCRIBE {
+    border-radius: 25px;
+    background: #0828cc;
+    height: 41px;
+    width: 123px;
+    color: #Fff;
+    font-weight: bold;
+    border: none;
 }
 
 .contentBox {
@@ -80,9 +98,53 @@ ul {
     background: #e1e7fa;
 }
 
+.textAndButton {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    margin-left: 183px;
+    margin-top: 111px;
+}
+
+.designMaturity {
+    font-size: 3em;
+    font-weight: bold;
+    width: 430px;
+    display: flex;
+    margin-bottom:33px;
+}
+
+.reportText {
+    display: flex;
+    width: 305px;
+    margin-bottom: 40px;
+}
+
+.reportBtn {
+    border-radius:25px;
+    background: #f80051;
+    width: 175px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+
+.second {
+    height: 540px;
+    background: #fff;
+}
+
+.greySquare {
+    height: 100%;
+    width: 60%;
+    background: #fbfbfb;
+    margin-left: 40%;
+}
+
 .footer {
     height: 1.5rem;
-    width: 98vw;
+    width: 100vw;
     background: #e1e7fa;
     position: fixed;
     left: auto;
