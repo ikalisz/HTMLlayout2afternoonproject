@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 body {
-    margin: 0;
+    margin: 1em;
     padding: 0;
     background: #e1e7fa;
     font-family: 'Muli', sans-serif;
@@ -8,21 +8,18 @@ body {
 
 .box {
     width: 97vw;
-    margin: 0 auto;
 }
 
 .first {
     height: 100vh;
-    width: 97vw;
     background: #fff;
-    margin: 0 auto;
 }
 
 .navigationBar {
     height:100px;
     width: 97vw;
     background: #fff;
-    margin: 1.5em auto 2.5em;
+    margin: 1.5em 0 2.5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,7 +89,7 @@ ul {
 
 .contentBox {
     height: 600px;
-    width: 95vw;
+    width: 92.5vw;
     display: flex;
     margin-left: 5%;
     background: #e1e7fa;
@@ -133,13 +130,32 @@ ul {
 .second {
     height: 540px;
     background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.greySquare {
-    height: 100%;
-    width: 60%;
-    background: #fbfbfb;
-    margin-left: 40%;
+.drawPicText {
+    display: flex;
+    flex-direction: row;
+}
+
+.templateText {
+    width: 450px;
+    margin-left: 100px;
+}
+
+.templateBigText {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.companies {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .footer {
