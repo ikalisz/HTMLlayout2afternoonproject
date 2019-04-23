@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
 body {
     margin: 0;
     padding: 0;
@@ -25,7 +26,21 @@ body {
     margin-left:2em;
 }
 
-.boldText {
-    font-weight: bold;
-    font-size: 1.5em;
+span {
+    font-family: 'Muli', sans-serif;
 }
+
+.headerText {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.boldText {
+    font-size: 1.35em;
+}
+
+.underText {
+    font-size: .7em;
+}
+
+
