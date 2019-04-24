@@ -167,11 +167,39 @@ ul {
 }
 
 .whiteSpace {
-    height: 200px;
+    height: 100px;
     background: #fff;
 }
 
+.libraryHeader {
+    height: 500px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.bold {
+    font-weight: bold;
+}
+
+.bookimg {
+    margin: 10px 0 30px;
+}
+
+.books {
+    font-size: .8em;
+}
+
+.theLibrary {
+    font-size: 1.7em;
+    margin-bottom: 40px;
+}
+
+.essentialReading {
+    font-size: 1.1em;
+}
 
 .footer {
     height: 1.5rem;
