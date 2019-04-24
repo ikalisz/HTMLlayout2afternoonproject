@@ -71,7 +71,7 @@ ul {
 
 .buttons {
     display: flex;
-    width: 15%;
+    width: 20%;
     justify-content: space-around;
     align-items: center;
     margin-right: 1em;
@@ -144,11 +144,19 @@ ul {
 .templateText {
     width: 450px;
     margin-left: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .templateBigText {
     font-size: 3em;
     font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.templateSmallText {
+    width: 400px;
+    line-height: 2;
 }
 
 .companies {
@@ -157,6 +165,13 @@ ul {
     justify-content: space-around;
     align-items: center;
 }
+
+.whiteSpace {
+    height: 200px;
+    background: #fff;
+}
+
+
 
 .footer {
     height: 1.5rem;
